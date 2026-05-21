@@ -1,0 +1,45 @@
+=== Dataset schema audit ===
+Total dialogs: 14048
+Total messages: 181068
+
+Top-level names(data):
+dialogs, fold, source_checksum, db_checksum, unfolded_checksum, unfolded_generated_time, generated_time
+
+str(data) (train split, top level):
+List of 7
+ $ dialogs                :'data.frame':	10287 obs. of  21 variables:
+ $ fold                   : chr "train"
+ $ source_checksum        : chr "128645ceb24a26cbd2719f477852e640"
+ $ db_checksum            : chr "e6bec7a95920d55a86c8524fca80fbac"
+ $ unfolded_checksum      : chr "3ff13361fd974a8720a93686da2fafb1"
+ $ unfolded_generated_time: chr "2019-11-27 12:33:22.600738"
+ $ generated_time         : chr "2019-11-27 12:52:00.140112"
+
+Sample rows (first two dialogs, selected fields):
+# A tibble: 2 x 4
+  dialog_id focus_entity aspects                       n_messages
+  <chr>     <chr>        <chr>                              <int>
+1 21922     Namibia      Media|Politics and government         12
+2 13171     Texas        Transportation|Geography              14
+
+Nested structures observed:
+- dialogs[] contains messages[]
+- each message contains facts[]
+
+Unique speaker labels:
+assistant, user
+
+Unique dialogue acts (all senders):
+feedback_ask, feedback_negative, feedback_positive, inform_related, inform_response, inform_unrelated, offer_accept, offer_aspect, offer_decline, offer_followup, offer_other, offer_topic, request_aspect, request_followup, request_other, request_topic, shift_aspect, social_apology, social_goodbye, social_greeting, social_thanking
+
+Available grounding fields:
+message.facts, fact.source, fact.used, fact.fid
+
+Available fact-source fields:
+known, random, section
+
+Available like/reaction fields:
+message.liked, dialog.user_dialog_rating, dialog.assistant_dialog_rating
+
+Available known-entity fields:
+dialog.known_entities, dialog.related_entities, dialog.focus_entity

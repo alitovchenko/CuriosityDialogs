@@ -1,0 +1,26 @@
+cell,specificity_label,depth_label,qual_label_validity,n
+rooted_request_followup,2 specific-factual-followup,2 specific-information-seeking,valid,29
+nonrooted_request_followup,2 specific-factual-followup,2 specific-information-seeking,valid,25
+nonrooted_no_request_followup,7 branching-related-entity-aspect,2 specific-information-seeking,underinclusive,24
+rooted_no_request_followup,7 branching-related-entity-aspect,2 specific-information-seeking,underinclusive,15
+rooted_no_request_followup,2 specific-factual-followup,2 specific-information-seeking,underinclusive,14
+rooted_no_request_followup,0 no-followup,0 no-curiosity-signal,valid,13
+nonrooted_request_followup,7 branching-related-entity-aspect,2 specific-information-seeking,valid,11
+nonrooted_no_request_followup,0 no-followup,0 no-curiosity-signal,valid,9
+nonrooted_no_request_followup,2 specific-factual-followup,2 specific-information-seeking,underinclusive,7
+rooted_request_followup,7 branching-related-entity-aspect,2 specific-information-seeking,valid,7
+nonrooted_request_followup,1 generic-continuation,1 shallow-engagement,valid,6
+nonrooted_no_request_followup,1 generic-continuation,1 shallow-engagement,valid,5
+rooted_no_request_followup,6 narrative-temporal-followup,3 integrative-deep-curiosity,underinclusive,5
+rooted_request_followup,1 generic-continuation,1 shallow-engagement,valid,5
+rooted_request_followup,3 explanatory-causal-followup,3 integrative-deep-curiosity,valid,5
+nonrooted_no_request_followup,6 narrative-temporal-followup,3 integrative-deep-curiosity,underinclusive,4
+nonrooted_request_followup,6 narrative-temporal-followup,3 integrative-deep-curiosity,valid,4
+nonrooted_request_followup,3 explanatory-causal-followup,3 integrative-deep-curiosity,valid,3
+rooted_no_request_followup,5 evaluative-significance-followup,3 integrative-deep-curiosity,underinclusive,2
+rooted_request_followup,4 comparative-relational-followup,3 integrative-deep-curiosity,valid,2
+nonrooted_no_request_followup,5 evaluative-significance-followup,3 integrative-deep-curiosity,underinclusive,1
+nonrooted_request_followup,5 evaluative-significance-followup,3 integrative-deep-curiosity,valid,1
+rooted_no_request_followup,1 generic-continuation,1 shallow-engagement,valid,1
+rooted_request_followup,0 no-followup,0 no-curiosity-signal,overinclusive,1
+rooted_request_followup,5 evaluative-significance-followup,3 integrative-deep-curiosity,valid,1

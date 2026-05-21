@@ -1,0 +1,4 @@
+raw_source_value,mapped_category,notes
+known,rooted,Mapped to rooted facts (user prior knowledge anchor)
+section,aspect,Mapped to aspect facts (focus entity section-level facts)
+random,general,Mapped to general/random facts

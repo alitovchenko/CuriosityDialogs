@@ -1,0 +1,5 @@
+cell,n_sampled
+nonrooted_no_request_followup,50
+nonrooted_request_followup,50
+rooted_no_request_followup,50
+rooted_request_followup,50

@@ -1,0 +1,57 @@
+{
+  "dataset": "curiosity_dialogs",
+  "version": "v1",
+  "description": "Curiosity Dialogs mirror manifest using GitHub media URLs as canonical source.",
+  "base_url": "https://media.githubusercontent.com/media/facebookresearch/curiosity/main/dialog_data",
+  "default_data_dir": "data/curiosity/v1",
+  "files": [
+    {
+      "name": "curiosity_dialogs.train.json",
+      "required": true,
+      "size_bytes": 66851161,
+      "sha256": "afe5bb0db8406663a316cd02cd25f33214725aaf1e25137cac3a13c6b1b4e70b"
+    },
+    {
+      "name": "curiosity_dialogs.val.json",
+      "required": true,
+      "size_bytes": 8772171,
+      "sha256": "4371152e4c783db3fd7366cee6aac0537fa786180a19d48f1ec052181678214f"
+    },
+    {
+      "name": "curiosity_dialogs.test.json",
+      "required": true,
+      "size_bytes": 8771731,
+      "sha256": "61dda16362474488c110a4a7d40da1fd7c6fd3c62dddbedea5e3e1fa590e416d"
+    },
+    {
+      "name": "curiosity_dialogs.test_zero.json",
+      "required": true,
+      "size_bytes": 7774102,
+      "sha256": "71f9645727393371ba278311fd2bba70a7e469dbafe5afbea90a2ffd7658ee0c"
+    },
+    {
+      "name": "curiosity_dialogs.json",
+      "required": false,
+      "size_bytes": 92168207,
+      "sha256": "8f146be0e1021cff368fb5208819aa63174e0d6e06e505c776ee859e0fc9cf02"
+    },
+    {
+      "name": "fact_db_links.json",
+      "required": false,
+      "size_bytes": 61967890,
+      "sha256": "95e68092c420c2b71321a6dfc18bad0027db7833972522f3a260b835fa819ad7"
+    },
+    {
+      "name": "wiki2vec_entity_100d.txt",
+      "required": false,
+      "size_bytes": 2021556178,
+      "sha256": "6d0584c62f657c1c8b47be83425625718854c8c52f281494ca32525663e7f562"
+    },
+    {
+      "name": "wiki_sql.sqlite.db",
+      "required": false,
+      "size_bytes": 365248512,
+      "sha256": "3d598e6b546ea340d2f4632f221c63a70bc3f4baa7fec371cacc5b604e31dba5"
+    }
+  ]
+}

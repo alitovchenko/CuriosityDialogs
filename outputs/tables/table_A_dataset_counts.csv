@@ -1,0 +1,13 @@
+metric,value
+n_dialogues,14041
+n_total_turns_proxy_assistant_plus_next_user,167020
+n_assistant_turns,90438
+n_assistant_turns_with_next_user_turn,76582
+n_assistant_turns_with_grounding,90438
+n_assistant_turns_with_likes,90438
+n_rooted_assistant_turns,10438
+n_aspect_assistant_turns,30969
+n_general_assistant_turns,12564
+n_likes,57607
+n_next_turn_followup_acts,4866
+n_usable_assistant_user_turn_pairs,76567

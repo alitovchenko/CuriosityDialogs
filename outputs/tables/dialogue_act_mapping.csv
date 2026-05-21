@@ -1,0 +1,21 @@
+dialogue_act,mapped_next_user_info_seeking,mapped_generic_engagement,mapped_closure,notes
+feedback_ask,0,1,0,
+feedback_negative,0,0,0,"Feedback, not direct information request"
+feedback_positive,0,1,0,"Feedback, not direct information request"
+inform_related,0,0,0,
+inform_response,0,0,0,
+inform_unrelated,0,0,0,
+offer_accept,0,1,0,
+offer_aspect,0,0,0,
+offer_decline,0,0,1,
+offer_followup,0,0,0,
+offer_other,0,0,0,
+offer_topic,0,0,0,
+request_aspect,1,1,0,Information-seeking acts
+request_followup,1,1,0,Strict follow-up request
+request_other,1,1,0,Information-seeking acts
+request_topic,1,1,0,Information-seeking acts
+shift_aspect,0,0,0,
+social_apology,0,0,0,
+social_goodbye,0,0,1,
+social_thanking,0,0,0,

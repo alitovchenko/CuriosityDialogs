@@ -1,0 +1,4 @@
+metric,value
+n_request_followup_rows,4866
+n_request_followup_generic_continuation_only,9
+pct_request_followup_generic_continuation_only,0.0018495684340320592

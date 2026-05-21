@@ -1,0 +1,19 @@
+field_name,field_type,example_values,missing_rate,notes
+dialog.dialog_id,integer,21922,0,
+dialog.user_id,character,207,0,
+dialog.assistant_id,character,341,0,
+dialog.focus_entity,character,Namibia,0,
+dialog.aspects,list[character],Media|Politics and government,0,
+dialog.known_entities,list[character],South Africa|United Kingdom|Portugal,0.33748576309794986,
+dialog.related_entities,list[character],"Western Roman Empire|United Kingdom|Portuguese language|Southern African Development Community|South Africa|Kalahari Desert|Namib Desert|League of Nations|Afrikaans|Sub-Saharan Africa|Portugal|South-West Africa|Warmbad, Namibia|German language|NBC",0,
+dialog.reported,logical,FALSE,0,
+dialog.messages,list[message],12,0,
+message.message_id,character,617343895,0,
+message.sender,character,user,0,
+message.message,character,Hi. I want information about Namibia.,0,
+message.liked,logical,FALSE,0,Message-level like label
+message.dialog_acts,list[character],request_topic,0.11270903748867829,
+message.facts,list[fact],0,0.5005301875538472,
+fact.fid,integer,77870,0,
+fact.source,character,section,0,"Observed values: known, section, random"
+fact.used,logical,FALSE,0,TRUE indicates selected/used fact

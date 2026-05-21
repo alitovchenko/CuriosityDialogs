@@ -1,0 +1,9 @@
+variable,n_missing,percent_missing
+assistant_text,23,2.5431787522943894e-4
+next_user_text,13907,0.15377385612242642
+assistant_liked_binary,0,0
+next_user_info_seeking,19386,0.21435679692164797
+next_user_request_followup,19386,0.21435679692164797
+any_rooted_fact,0,0
+rooted_share,36467,0.403226519825737
+assistant_word_count,23,2.5431787522943894e-4
